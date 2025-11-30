@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaodong Cao | Software Developer & Creative Professional</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">XC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- me section -->
+    <section id="home" class="me-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7 me-content">
+                    <p class="me-greeting">Hello, I'm</p>
+                    <h1 class="me-name">Xiaodong Cao</h1>
+                    <p class="me-tagline">Software Developer | Creative Professional</p>
+                    <p class="me-description">
+                        A versatile problem-solver blending technical education with creative industry experience. 
+                        I build user-focused applications and bring a unique perspective from my background in 
+                        advertising and video production. Currently pursuing Software Support at Mohawk College 
+                        with an 88.9% GPA.
+                    </p>
+                    <div class="me-cta">
+                        <a href="#projects" class="btn btn-primary-custom">View My Work</a>
+                        <a href="#resume" class="btn btn-outline-custom">Get Resume</a>
+                    </div>
+                    <div class="me-social">
+                        <a href="https://github.com/Doehner-CA" target="_blank" class="social-link"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/xiaodong-cao-115415348/" target="_blank" class="social-link"><i class="bi bi-linkedin"></i></a>
+                        <a href="mailto:xiaodong.cao@mohawkcollege.ca" class="social-link"><i class="bi bi-envelope-fill"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 me-image-container">
+                    <div class="me-image-wrapper">
+                        <img src="assets/selfie.jpg" alt="Xiaodong Cao" class="me-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A selection of my recent work showcasing React, React Native, and UI/UX design skills</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Hiking in Hamilton -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/Screenshot-HikinginHamilton2.PNG" alt="Screenshot-HikinginHamilton2" >
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Expo</span>
+                            <span class="tag">Maps API</span>
+                        </div>
+                        <h3 class="project-title">Hiking in Hamilton</h3>
+                        <p class="project-description">
+                            A React Native mobile application for discovering and navigating 80+ hiking trails 
+                            in Hamilton, Ontario. Features include GPS location tracking, favorite trails management, 
+                            and interactive map views with trail details.
+                        </p>
+                        <a href="https://github.com/Doehner-CA/Hiking-in-Hamilton" target="_blank" class="project-link">
+                            <i class="bi bi-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Harry Potter Explorer -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/Screenshot-harrypotterexplorer.png" alt="Screenshot-harrypotterexplorer" >
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">REST API</span>
+                            <span class="tag">Expo</span>
+                        </div>
+                        <h3 class="project-title">Harry Potter Explorer</h3>
+                        <p class="project-description">
+                            A cross-platform mobile app to explore the wizarding world. Search and discover 
+                            characters, spells, houses, and books with real-time API integration and dynamic 
+                            search filtering.
+                        </p>
+                        <a href="https://github.com/Doehner-CA/HarryPotterExplorer" target="_blank" class="project-link">
+                            <i class="bi bi-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card Deck Simulator -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/CardDeckAppScreenshot.png" alt="CardDeckAppScreenshot" >
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Vite</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <h3 class="project-title">Card Deck Simulator</h3>
+                        <p class="project-description">
+                            A React-based card deck manipulation application demonstrating state management, 
+                            component architecture, and event handling with the Fisher-Yates shuffle algorithm.
+                        </p>
+                        <a href="https://github.com/Doehner-CA/card-deck-simulator" target="_blank" class="project-link">
+                            <i class="bi bi-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hospital Management System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/Overview@3x.png" alt="Hosipital-Management-System-Interface-Design-Coursework" >
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">UI/UX Design</span>
+                            <span class="tag">Sketch</span>
+                            <span class="tag">Coursework</span>
+                        </div>
+                        <h3 class="project-title">Hospital Management System</h3>
+                        <p class="project-description">
+                            A comprehensive UI/UX design for a healthcare management system with role-based 
+                            dashboards for medical staff, patients, and administrators.
+                        </p>
+                        <a href="https://github.com/Doehner-CA/Hosipital-Management-System-Interface-Design-Coursework" target="_blank" class="project-link">
+                            <i class="bi bi-github"></i> View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- education -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My academic journey across two countries</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sept 2023 – Dec 2025 (Expected)</div>
+                        <h3 class="timeline-title">Software Support – Computer Systems Technician</h3>
+                        <h4 class="timeline-institution">Mohawk College – Hamilton, ON</h4>
+                        <div class="achievement-badge">
+                            <i class="bi bi-award-fill"></i>
+                            <span>GPA: 88.9% | Dean's Honours List</span>
+                        </div>
+                        <p class="timeline-description">
+                            Comprehensive program covering programming fundamentals, web development, 
+                            software quality assurance, database theory, and mobile application development.
+                        </p>
+                        <div class="skills-learned">
+                            <span>Java</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>PHP</span>
+                            <span>SQL</span>
+                            <span>.NET</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">July 2020 – June 2022</div>
+                        <h3 class="timeline-title">Bachelor of Arts – Advertising</h3>
+                        <h4 class="timeline-institution">Xianda College, Shanghai International Studies University – Shanghai, China</h4>
+                        <div class="achievement-badge">
+                            <i class="bi bi-mortarboard-fill"></i>
+                            <span>GPA: 3.48/4.0</span>
+                        </div>
+                        <p class="timeline-description">
+                            Studied advertising theory, creative strategy, audience research, and visual 
+                            communication. This creative background informs my approach to user-centered design.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sept 2017 – July 2020</div>
+                        <h3 class="timeline-title">Diploma – News Editing and Production</h3>
+                        <h4 class="timeline-institution">Shanghai Institute of Commerce & Foreign Languages – Shanghai, China</h4>
+                        <p class="timeline-description">
+                            Developed skills in content creation, video editing, and storytelling—skills 
+                            that translate well into creating engaging user experiences.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- experience -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">Professional journey spanning tech and creative industries</p>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jun 2025 – Present</div>
+                        <h3 class="timeline-title">Server (Part-time)</h3>
+                        <h4 class="timeline-institution">Eem Khao – Hamilton, ON</h4>
+                        <p class="timeline-description">
+                            Developing customer service and multitasking skills while pursuing studies.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Aug 2024 – Oct 2024</div>
+                        <h3 class="timeline-title">Research Assistant (Marketing & Video Production)</h3>
+                        <h4 class="timeline-institution">IDEAWORKS, Mohawk College – Hamilton, ON</h4>
+                        <ul class="experience-list">
+                            <li>Developed comprehensive marketing strategy for a health research project</li>
+                            <li>Conceptualized pre-production for a 4-episode educational documentary series</li>
+                            <li>Designed posters and edited videos using Adobe Photoshop and Premiere Pro</li>
+                        </ul>
+                        <div class="tools-used">
+                            <span>Adobe Photoshop</span>
+                            <span>Premiere Pro</span>
+                            <span>Excel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Sept 2022 – Dec 2022</div>
+                        <h3 class="timeline-title">Advertising Creative Director (Freelance)</h3>
+                        <h4 class="timeline-institution">Funny People Studio – Shanghai, China</h4>
+                        <ul class="experience-list">
+                            <li>Conceptualized and developed commercial video strategies</li>
+                            <li>Conducted audience research and product analysis</li>
+                            <li>Created visual concepts including script writing and slogan development</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jan 2021 – Sept 2021</div>
+                        <h3 class="timeline-title">Advertising Assistant Producer</h3>
+                        <h4 class="timeline-institution">Publicis Groupe – Shanghai, China</h4>
+                        <ul class="experience-list">
+                            <li>Created presentations, proposals, and storyboards using Keynote</li>
+                            <li>Managed project schedules and timelines using Excel and Notion</li>
+                            <li>Coordinated on-site shoots and post-production workflows</li>
+                        </ul>
+                        <p class="brands-label">Brand Projects:</p>
+                        <div class="brand-tags">
+                            <span>PUMA</span>
+                            <span>LANCÔME</span>
+                            <span>Dior</span>
+                            <span>Cartier</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- resume -->
+    <section id="resume" class="section resume-section">
+        <div class="container">
+            <div class="resume-card">
+                <div class="resume-content">
+                    <h2 class="resume-title">Get My Resume</h2>
+                    <p class="resume-description">
+                        Interested in learning more about my qualifications? Download my full resume 
+                        for a comprehensive overview of my skills, education, and experience.
+                    </p>
+                    <a href="./assets/XiaodongCaoResume.pdf" class="btn btn-primary-custom btn-lg" download target="_blank">
+                        <i class="bi bi-file-earmark-pdf"></i> Download Resume
+                    </a>
+                </div>
+                <div class="resume-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-category">
+                        <h4>Languages</h4>
+                        <div class="skill-tags">
+                            <span>Java</span>
+                            <span>JavaScript</span>
+                            <span>HTML/CSS</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Frameworks & Tools</h4>
+                        <div class="skill-tags">
+                            <span>React</span>
+                            <span>React Native</span>
+                            <span>Git/GitHub</span>
+                            <span>CLI agents</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Creative Tools</h4>
+                        <div class="skill-tags">
+                            <span>Adobe Photoshop</span>
+                            <span>Premiere Pro</span>
+                            <span>Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-text">Xiaodong Cao</span>
+                    <p>Software Developer | Creative Professional</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get In Touch</h4>
+                    <div class="contact-links">
+                        <a href="mailto:xiaodong.cao@mohawkcollege.ca"><i class="bi bi-envelope"></i> xiaodong.cao@mohawkcollege.ca</a>
+                        <a href="https://github.com/Doehner-CA" target="_blank"><i class="bi bi-github"></i> github.com/Doehner-CA</a>
+                        <a href="https://www.linkedin.com/in/xiaodong-cao-115415348/" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Xiaodong Cao. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script><!-- hamburger menu button collapse for narrow screen-->
+    <script src="script.js"></script>
+</body>
+</html>
